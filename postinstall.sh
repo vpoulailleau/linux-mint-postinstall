@@ -19,7 +19,7 @@ sudo apt install -y ubuntu-restricted-extras libavcodec-extra vlc vlc-data brows
 ########################################
 # Python
 ########################################
-sudo apt install -y python3.7 python3.7-venv python3-pip
+sudo apt install -y python3.7 python3.7-venv python3-pip python3-venv
 
 sudo add-apt-repository -y ppa:deadsnakes/ppa
 sudo apt update -y
