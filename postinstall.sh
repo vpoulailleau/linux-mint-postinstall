@@ -10,6 +10,7 @@ sudo apt install -y software-properties-common build-essential checkinstall wget
 sudo apt install -y gthumb
 sudo apt install -y synaptic
 sudo apt install -y ubuntu-restricted-extras libavcodec-extra vlc vlc-data browser-plugin-vlc
+sudo apt install -y xvfb
 
 ########################################
 # git config
