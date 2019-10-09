@@ -11,4 +11,4 @@ BSD 3-clause
 * Get the script (download or `git clone https://github.com/vpoulailleau/linux-mint-postinstall.git`)
 * `cd linux-mint-postinstall`
 * `chmod +x ./postinstall.sh`
-* `./postinstall.sh`
+* `./postinstall.sh` or `yes | ./postinstall.sh` to install everything
