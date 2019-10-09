@@ -35,7 +35,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 eval "$DIR/python.sh"
 
 # create python script
-cat <<EOT >> config_vscode.py
+cat <<EOT > config_vscode.py
 import json
 import re
 from pathlib import Path
@@ -53,7 +53,7 @@ def comment_remover(text):
             return s
 
     pattern = re.compile(
-        r'//.*?$|/\*.*?\*/|\'(?:\\.|[^\\\'])*\'|"(?:\\.|[^\\"])*"',
+        r'//.*?$|/\*.*?\*/|\'(?:\\\\.|[^\\\\\\'])*\'|"(?:\\\\.|[^\\\\"])*"',
         re.DOTALL | re.MULTILINE,
     )
     return re.sub(pattern, replacer, text)
