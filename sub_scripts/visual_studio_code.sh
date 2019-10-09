@@ -7,23 +7,25 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode s
 sudo apt update -y
 sudo apt install -y code
 # sudo chown -R $(whoami) /usr/share/code
-code --install-extension --force ms-python.python
-code --install-extension --force visualstudioexptteam.vscodeintellicode
-code --install-extension --force ms-vscode.cpptools
-code --install-extension --force coenraads.bracket-pair-colorizer
-code --install-extension --force compulim.compulim-vscode-closetag
-code --install-extension --force batisteo.vscode-django
-code --install-extension --force bibhasdn.django-html
-code --install-extension --force donjayamanne.githistory
-code --install-extension --force yzhang.markdown-all-in-one
-code --install-extension --force davidanson.vscode-markdownlint
-code --install-extension --force dongli.python-preview
-code --install-extension --force lextudio.restructuredtext
-code --install-extension --force gruntfuggly.todo-tree
-code --install-extension --force vscodevim.vim
-code --install-extension --force vscode-icons-team.vscode-icons
-code --install-extension --force tomoki1207.pdf
-code --install-extension --force dotjoshjohnson.xml
+
+# Use --force to update? Seems it doesn't work.
+code --install-extension ms-python.python
+code --install-extension visualstudioexptteam.vscodeintellicode
+code --install-extension ms-vscode.cpptools
+code --install-extension coenraads.bracket-pair-colorizer
+code --install-extension compulim.compulim-vscode-closetag
+code --install-extension batisteo.vscode-django
+code --install-extension bibhasdn.django-html
+code --install-extension donjayamanne.githistory
+code --install-extension yzhang.markdown-all-in-one
+code --install-extension davidanson.vscode-markdownlint
+code --install-extension dongli.python-preview
+code --install-extension lextudio.restructuredtext
+code --install-extension gruntfuggly.todo-tree
+code --install-extension vscodevim.vim
+code --install-extension vscode-icons-team.vscode-icons
+code --install-extension tomoki1207.pdf
+code --install-extension dotjoshjohnson.xml
 
 
 #############################################
