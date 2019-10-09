@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# TODO install python
+
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
@@ -24,3 +26,5 @@ code --install-extension --force vscodevim.vim
 code --install-extension --force vscode-icons-team.vscode-icons
 code --install-extension --force tomoki1207.pdf
 code --install-extension --force dotjoshjohnson.xml
+
+# TODO config JSON
