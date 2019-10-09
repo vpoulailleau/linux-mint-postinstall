@@ -18,3 +18,4 @@ BSD 3-clause
   * `cd linux-mint-postinstall`
   * `chmod +x ./postinstall.sh`
   * `./postinstall.sh` or `yes | ./postinstall.sh` to install everything
+  * exit the shell
