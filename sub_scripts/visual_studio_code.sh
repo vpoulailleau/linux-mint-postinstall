@@ -93,6 +93,7 @@ with open(config_json, encoding="utf-8") as file:
         "79",
         "--target-version=py36",
     ]
+    config["scm.defaultViewMode"] = "tree"
     config["terminal.integrated.rendererType"] = "dom"
     config["vim.incsearch"] = True
     config["vim.useSystemClipboard"] = True
