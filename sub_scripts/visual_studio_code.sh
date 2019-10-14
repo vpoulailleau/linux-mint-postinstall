@@ -27,6 +27,12 @@ code --install-extension vscode-icons-team.vscode-icons
 code --install-extension tomoki1207.pdf
 code --install-extension dotjoshjohnson.xml
 
+#############################################
+# Add open folder in VS code in contextual menu
+#############################################
+
+# TODO configure shortcut
+
 
 #############################################
 # Configure VS code
