@@ -7,7 +7,7 @@ sudo apt update -y
 sudo apt upgrade -y
 
 sudo apt install -y software-properties-common checkinstall wget curl gpg
-sudo apt install -y build-essential libssl-dev gcc automake
+sudo apt install -y build-essential libssl-dev gcc automake screen
 sudo apt install -y synaptic
 sudo apt install -y xvfb
 
