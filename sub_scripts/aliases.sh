@@ -12,6 +12,8 @@ alias ga='git add'
 alias gc='git commit'
 alias gs='git status'
 alias gl='git log --graph --oneline --decorate --all'
+
+alias act='source venv/bin/activate'
 EOT
 
 INSTALLED=`cat ~/.bashrc | grep bash_aliases_linux_mint_postinstall.sh | wc -l`
