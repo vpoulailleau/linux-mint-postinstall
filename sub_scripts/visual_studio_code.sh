@@ -31,8 +31,15 @@ code --install-extension dotjoshjohnson.xml
 # Add open folder in VS code in contextual menu
 #############################################
 
-# TODO configure shortcut
-
+cat <<EOT > ~/.local/share/nemo/actions/vscode.nemo_action
+[Nemo Action]
+Name=Ouvrir dans VS Code
+Comment=Ouvrir dans VS Code
+Exec=code %F
+Icon-Name=visual-studio-code
+Selection=Any
+Extensions=dir;
+EOT
 
 #############################################
 # Configure VS code
@@ -114,3 +121,4 @@ if config:
 EOT
 
 python3.8 config_vscode.py
+
