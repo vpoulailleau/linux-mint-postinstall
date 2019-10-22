@@ -112,6 +112,7 @@ with open(config_json, encoding="utf-8") as file:
     config["vim.useSystemClipboard"] = True
     config["vim.hlsearch"] = True
     config["vim.handleKeys"] = {"<C-a>": False, "<C-f>": False}
+    config["window.titleBarStyle"] = "custom"
     config["workbench.colorTheme"] = "Visual Studio Dark"
     config["workbench.iconTheme"] = "vscode-icons"
 
