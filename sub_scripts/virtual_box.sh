@@ -1,3 +1,3 @@
 #!/bin/bash
 
-# TODO install virtual_box.sh
+sudo apt install -y virtualbox virtualbox-qt virtualbox-dkms
