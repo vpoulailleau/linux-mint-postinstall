@@ -9,6 +9,7 @@ sudo apt install -y python3.8 python3.8-venv python3.8-dev
 # install pipx
 python3.8 -m pip install --user --upgrade pipx
 python3.8 -m pipx ensurepath
+source ~/.bashrc  # TODO update path without reading all the .bashrc
 
 # install userpath
 pipx install userpath
