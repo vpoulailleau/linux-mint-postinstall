@@ -89,6 +89,8 @@ config["editor.cursorStyle"] = "line"
 config["editor.formatOnSave"] = True
 config["editor.formatOnPaste"] = True
 config["files.watcherExclude"] = {
+    "**/venv/**": True,
+    "**/build/**": True,
     "**/.git/objects/**": True,
     "**/.git/subtree-cache/**": True,
     "**/node_modules/*/**": True,
