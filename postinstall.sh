@@ -11,6 +11,7 @@ sudo apt install -y build-essential libssl-dev gcc automake screen zlib1g-dev li
 sudo apt install -y filezilla
 sudo apt install -y synaptic
 sudo apt install -y xvfb
+sudo apt install -y gwenview
 
 ########################################
 # Execute sub scripts
