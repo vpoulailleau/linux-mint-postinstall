@@ -20,3 +20,6 @@ pipx install python-dev-tools
 pipx upgrade python-dev-tools
 TOOLS_PATH=$(ls -l ~/.local/bin/whataformatter | sed -e "s/.*-> //" | sed -e "s#/bin.*#/bin#")
 userpath prepend $TOOLS_PATH
+
+# install poetry
+curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python3.8
