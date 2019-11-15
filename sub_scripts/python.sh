@@ -9,7 +9,7 @@ sudo apt install -y python3.8 python3.8-venv python3.8-dev
 # install pipx
 python3.8 -m pip install --user --upgrade pipx
 python3.8 -m pipx ensurepath
-source ~/.bashrc  # TODO update path without reading all the .bashrc
+export PATH=$PATH:~/.local/bin
 
 # install userpath
 pipx install userpath
@@ -22,4 +22,6 @@ TOOLS_PATH=$(ls -l ~/.local/bin/whataformatter | sed -e "s/.*-> //" | sed -e "s#
 userpath prepend $TOOLS_PATH
 
 # install poetry
-curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python3.8
+curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python3.7  # not yet python3.8 https://github.com/sdispater/poetry/pull/1437
+source $HOME/.poetry/env
+poetry completions bash > /etc/bash_completion.d/poetry.bash-completion
