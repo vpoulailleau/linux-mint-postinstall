@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# first install Python, to get pip
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+eval "$DIR/python.sh"
+
 sudo apt install -y fonts-powerline
 pip3 install powerline-shell
 
