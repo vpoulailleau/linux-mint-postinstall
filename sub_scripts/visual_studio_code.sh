@@ -26,6 +26,8 @@ code --install-extension vscodevim.vim
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension tomoki1207.pdf
 code --install-extension dotjoshjohnson.xml
+code --install-extension bungcip.better-toml
+
 
 #############################################
 # Add open folder in VS code in contextual menu
@@ -89,6 +91,7 @@ config["editor.cursorStyle"] = "line"
 config["editor.formatOnSave"] = True
 config["editor.formatOnPaste"] = True
 config["files.watcherExclude"] = {
+    "**/.tox/**": True,
     "**/venv/**": True,
     "**/build/**": True,
     "**/.git/objects/**": True,
