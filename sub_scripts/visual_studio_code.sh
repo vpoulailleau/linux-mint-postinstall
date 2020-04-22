@@ -28,6 +28,7 @@ code --install-extension tomoki1207.pdf
 code --install-extension dotjoshjohnson.xml
 code --install-extension bungcip.better-toml
 code --install-extension grapecity.gc-excelviewer
+code --install-extension ms-pyright.pyright
 
 
 #############################################
