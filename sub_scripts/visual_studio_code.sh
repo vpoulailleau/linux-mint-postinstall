@@ -113,8 +113,6 @@ config[
     "python.formatting.blackPath"
 ] = "~/.local/pipx/venvs/python-dev-tools/bin/black"
 config["python.formatting.blackArgs"] = [
-    "--line-length",
-    "79",
     "--target-version=py36",
 ]
 config["scm.defaultViewMode"] = "tree"
