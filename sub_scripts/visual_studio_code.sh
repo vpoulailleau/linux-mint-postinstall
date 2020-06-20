@@ -29,7 +29,7 @@ code --install-extension dotjoshjohnson.xml
 code --install-extension bungcip.better-toml
 code --install-extension grapecity.gc-excelviewer
 code --install-extension ms-pyright.pyright
-
+code --install-extension spmeesseman.vscode-taskexplorer
 
 #############################################
 # Add open folder in VS code in contextual menu
